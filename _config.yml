@@ -25,11 +25,11 @@ description: Demystifying Data Science
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Start Learning Data Science: "https://www.inferentialthinking.com/"
-    - Get this template Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - 
-  Author's home: "http://deanattali.com"
+    - Discover data science: "https://www.inferentialthinking.com/"
+    - Learn how to code: "https://www.codecademy.com/learn/all"
+    - Procrastinate: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+  # Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -91,10 +91,10 @@ share-links-active:
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "rishab231"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-91624312-1"
 
 # Google Tag Manager ID
 #gtm: ""
