@@ -1,9 +1,22 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: The road ahead
+<!--subtitle: What to expect from this website/blog-->
 bigimg: /img/path.jpg
 ---
+
+## What to expect from this website/blog
+
+I feel data tells a story, a story much more interesting than one that humans can tell. Each dataset we analyze tells the story of one particular topic in a domain such as education, politics, healthcare. Think of this website as a collection of these stories, conveyed through a mixture of _code_, _visualizations_ and _text_.
+
+## How I got started
+
+I became interested in data science last semester, when I took the  _Fundamentals of Data Science_ course here at UC Berkeley. Contrary to popular belief, the subject is not just about plotting a bunch of variables on the x and y axis, which I had to learn the hard way. Data science is about solving problems; it's about coming up with solutions when ome doesn't exist. It's also about finding the problem when we have the solution right in front of us.
+
+I feel data tells a story, a story much more interesting than one that humans can tell.
+
+I started this because I really became interested in data science. I feel data is able to tell a story, a story that is much more objective than what humans can tell. 
+
 
 Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?  
 
