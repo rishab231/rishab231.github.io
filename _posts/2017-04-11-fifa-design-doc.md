@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Project FUT
-subtitle: A handy tool to build best FIFA ultimate team
+subtitle: A handy tool to build your best FIFA ultimate team
 ---
 
 ### Overview
@@ -13,7 +13,7 @@ This API uses an algorithm based on a graph's neighbours functionality to calcul
 ![Chemistry](http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg) 
 
 **B. Data Science API** 
-Instead of using a built-in data science/machine learning library or framework such as Pandas or Java-ML, I decided to build my own DS-API with custom functionality and feature set.
+Instead of using a built-in data science/machine learning library or framework such as Pandas or Java-ML, I decided to build my own DS-API with custom functionality and feature set. Details to follow.
 
 ### Commands
 
