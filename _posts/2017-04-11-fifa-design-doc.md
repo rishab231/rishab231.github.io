@@ -2,7 +2,6 @@
 layout: post
 title: Project FUT
 subtitle: A handy tool to build your best FIFA ultimate team
-bigimg: /img/fifa.jpg
 ---
 
 ### Overview
