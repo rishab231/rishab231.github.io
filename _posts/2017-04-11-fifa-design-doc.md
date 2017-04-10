@@ -4,6 +4,7 @@ title: Project: FUT
 subtitle: A handy tool to build best FIFA ultimate team
 bigimg: /img/fifa.jpg
 ---
+
 ### Overview
 This application helps you build the best FIFA ultimate team possible with a given set of resources. This project is has been designed using two fundamental APIs:
 
