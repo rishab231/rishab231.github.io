@@ -12,7 +12,7 @@ This API uses an algorithm based on a graph's neighbours functionality to calcul
 
 <!--![Chemistry](http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg) -->
 
-<img src = "http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg">
+<img src = "http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg" width="600">
 <img src = "https://lh3.googleusercontent.com/8I7P-XGi6yY0xRtum-owHzVUvmRrYVpWDINNHPK3L7XuPtBK86sRf0CAQsGYx0YMZ08=w300">
 
 **B. Data Science API** 
