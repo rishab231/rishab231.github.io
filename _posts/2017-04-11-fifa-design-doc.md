@@ -10,7 +10,10 @@ This application helps you build the best FIFA ultimate team possible with a giv
 **A. Graph API** 
 This API uses an algorithm based on a graph's neighbours functionality to calculate the chemistry for a given ultimate team with a certain formation. 
 
-![Chemistry](http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg) 
+<!--![Chemistry](http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg) -->
+
+<img src = "http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg" width=200px>
+<img src = "https://lh3.googleusercontent.com/8I7P-XGi6yY0xRtum-owHzVUvmRrYVpWDINNHPK3L7XuPtBK86sRf0CAQsGYx0YMZ08=w300">
 
 **B. Data Science API** 
 Instead of using a built-in data science/machine learning library or framework such as Pandas or Java-ML, I decided to build my own DS-API with custom functionality and feature set. Details to follow.
@@ -29,7 +32,11 @@ Instead of using a built-in data science/machine learning library or framework s
 
 ### Citations
 
+*Data*
+
+*Images*
+
 1. http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg
-2. 
+2. https://lh3.googleusercontent.com/
 
 ---
