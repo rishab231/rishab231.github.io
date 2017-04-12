@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The whole world within reach
-subtitle: A shot-by-shot psychoanalytical approach to *Life in a Day*
+subtitle: A shot-by-shot psychoanalytical approach to Life in a Day
 bigimg: /img/path.jpg
 ---
 
