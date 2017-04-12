@@ -2,6 +2,7 @@
 layout: post
 title: Sins of the Father
 subtitle: Spotlight film critique
+bigimg: /img/Spotlight.jpg
 ---
 
 *Spotlight (2015)* is a film based on actual events. Directed by Tom McCarthy, the film follows a special investigative team called ‘Spotlight’ working at the Boston Globe as they delve into a disturbing scandal that shakes up the Catholic Church as well as the entire city. The team probes into sexual harassment allegations against priests in the Boston Archdiocese and uncovers a decades-long cover up that sparks waves of revelations around the world.
