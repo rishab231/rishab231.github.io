@@ -14,6 +14,14 @@ This API uses an algorithm based on a graph's neighbours functionality to calcul
 <img src = "http://guides.gamepressure.com/fifa17/gfx/word/95831741.jpg" width="425">
 <img src = "https://lh3.googleusercontent.com/8I7P-XGi6yY0xRtum-owHzVUvmRrYVpWDINNHPK3L7XuPtBK86sRf0CAQsGYx0YMZ08=w300" width="225">
 
+```java
+public static void main(String[] args) {
+	String s = "hello";
+	int x = 14
+	System.out.println(s+x);
+}
+```
+
 **B. Data Science API** 
 Instead of using a built-in data science/machine learning library or framework such as Pandas or Java-ML, I decided to build my own DS-API with custom functionality and feature set. 
 
