@@ -7,6 +7,8 @@ subtitle: A handy tool to build your best FIFA ultimate team
 ### Overview
 This application helps you build the best FIFA ultimate team possible with a given set of resources. This project is has been designed using two fundamental APIs:
 
+Author: Rishab Srivastava
+
 **A. Graph API** 
 This API uses an algorithm based on a graph's neighbours functionality to calculate the chemistry for a given ultimate team with a certain formation. 
 
@@ -15,10 +17,19 @@ This API uses an algorithm based on a graph's neighbours functionality to calcul
 <img src = "https://lh3.googleusercontent.com/8I7P-XGi6yY0xRtum-owHzVUvmRrYVpWDINNHPK3L7XuPtBK86sRf0CAQsGYx0YMZ08=w300" width="225">
 
 ```java
-public static void main(String[] args) {
-	String s = "hello";
-	int x = 14
-	System.out.println(s+x);
+public class GraphFUT {
+	private Database db;
+	private int numcoins;
+	private Map<Integer, Position> positions;
+	private Formation teamf; //The desired formation of the team
+	public GraphFUT(Database db, Integer c, Formation f);
+	//Returns true if two players are connected
+	boolean isConnected(int x, int y);
+	//Returns 0 if red line, 1 for orange line and 2 for green line
+	int chemistry(int x, int y);
+	/* Prints the best possible team with the given number of coins
+	and the given set of players in the database */
+	void bestTeam();
 }
 ```
 
