@@ -4,10 +4,10 @@ title: Project FUT
 subtitle: A handy tool to build your best FIFA ultimate team
 ---
 
+*Author*: Rishab Srivastava
+
 ### Overview
 This application helps you build the best FIFA ultimate team possible with a given set of resources. This project is has been designed using two fundamental APIs:
-
-Author: Rishab Srivastava
 
 **A. Graph API** 
 This API uses an algorithm based on a graph's neighbours functionality to calculate the chemistry for a given ultimate team with a certain formation. 
