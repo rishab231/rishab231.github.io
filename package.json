@@ -1,44 +1,40 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
-    "version": "4.0.0-beta",
-    "description": "A grayscale one page HTML theme for Bootstrap.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/grayscale",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
-    },
-    "dependencies": {
-        "bootstrap": "^4.0.0-beta",
-        "font-awesome": "4.7.0",
-        "jquery": "^3.2.1",
-        "jquery.easing": "^1.4.1",
-        "popper.js": "1.12.3"
-    },
-    "devDependencies": {
-        "browser-sync": "2.18.13",
-        "gulp": "^3.9.1",
-        "gulp-clean-css": "3.7.0",
-        "gulp-header": "1.8.9",
-        "gulp-rename": "^1.2.2",
-        "gulp-sass": "^3.1.0",
-        "gulp-uglify": "3.0.0"
-    }
+  "name": "markdown-air",
+  "version": "0.0.4",
+  "description": "A markdown CSS theme.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markdowncss/air.git"
+  },
+  "keywords": [
+    "markdown",
+    "css",
+    "air",
+    "theme"
+  ],
+  "author": "John Otander <johnotander@gmail.com> (http://johnotander.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markdowncss/air/issues"
+  },
+  "homepage": "https://github.com/markdowncss/air",
+  "dependencies": {
+    "furtive-print": "0.0.1",
+    "furtive-responsive-utils": "0.0.1",
+    "furtive-typescale": "0.0.4",
+    "gulp": "^3.8.9",
+    "gulp-htmlincluder": "^0.1.0",
+    "gulp-remarkable": "0.0.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-rework": "^1.0.2",
+    "gulp-size": "^1.1.0",
+    "rework-class-prefix": "0.0.2",
+    "rework-custom-media": "^0.2.0",
+    "rework-npm": "^1.0.0",
+    "rework-vars": "^3.1.1"
+  }
 }
