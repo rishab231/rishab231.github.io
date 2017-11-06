@@ -1,6 +1,6 @@
 ## Rishab Srivastava
 
-![A pretty dock on a lake](images/rs.jpg)
+![Hello world!](images/rs.jpg)
 
 ### A markdown theme that is light and airy.
 
