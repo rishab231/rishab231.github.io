@@ -46,4 +46,3 @@ gulp.task('watch', function() {
   > Antoine de Saint-Exupéry
 
 
-Crafted with <3 by [John Otander](http://johnotander.com)([@4lpine](https://twitter.com/4lpine)).
