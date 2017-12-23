@@ -1,31 +1,40 @@
-var scrollY = 0;
-var distance = 40;
+var marginY = 0;
+var destination = 0;
 var speed = 10;
-function autoScrollTo(el) {
-	var currentY = window.pageYOffset;
-	var targetY = document.getElementById(el).offsetTop;
-	var bodyHeight = document.body.offsetHeight;
-	var yPos = currentY + window.innerHeight;
-	var animator = setTimeout('autoScrollTo(\''+el+'\')',10);
-	if(yPos > bodyHeight){
-		clearTimeout(animator);
-	} else {
-		if(currentY < targetY-distance){
-		    scrollY = currentY+distance;
-		    window.scroll(0, scrollY);
-	    } else {
-		    clearTimeout(animator);
-	    }
-	}
+var scroller = null;
+
+function initScroll(elementId){
+	destination = document.getElementById(elementId).offsetTop;
+	
+	scroller = setTimeout(function(){
+		initScroll(elementId);
+	}, 1);
+
+	marginY = marginY + speed;
+
+	if(marginY >= destination){
+		clearTimeout(scroller);
+	}	
+
+	window.scroll(0, marginY);
+
+	//console.log(destination);
 }
-function resetScroller(el){
-	var currentY = window.pageYOffset;
-    var targetY = document.getElementById(el).offsetTop;
-	var animator = setTimeout('resetScroller(\''+el+'\')',speed);
-	if(currentY > targetY){
-		scrollY = currentY-distance;
-		window.scroll(0, scrollY);
-	} else {
-		clearTimeout(animator);
-	}
+
+window.onscroll = function(){
+	marginY = this.pageYOffset;	
+};
+
+function toTop(){
+	scroller = setTimeout(function(){
+		toTop();
+	}, 1);
+
+	marginY = marginY - speed;
+
+	if(marginY <= 0){
+		clearTimeout(scroller);
+	}	
+
+	window.scroll(0, marginY);
 }
