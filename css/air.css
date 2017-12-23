@@ -41,6 +41,11 @@
     page-break-inside: avoid;
   }
 
+  img.resize {
+  max-width:75%;
+  max-height:75%;
+}
+
   /*
   img {
     max-width: 100% !important;
