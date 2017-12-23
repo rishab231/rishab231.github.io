@@ -46,6 +46,11 @@
     max-height:35%;
   }
 
+  img.experience {
+    max-width:35%;
+    max-height:35%;
+  }
+
   /*
   img {
     max-width: 100% !important;
