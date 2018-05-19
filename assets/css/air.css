@@ -50,12 +50,6 @@
     max-width:50%;
   }
 
-  img.proj {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
   /*
   img {
     max-width: 100% !important;
@@ -178,10 +172,6 @@ body {
   margin: 6rem auto 1rem;
   max-width: 48rem;
   text-align: center;
-}
-
-proj-container {
-  width: 30px;
 }
 
 /*
