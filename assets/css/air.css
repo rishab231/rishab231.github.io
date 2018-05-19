@@ -50,6 +50,10 @@
     max-width:50%;
   }
 
+  img.proj {
+    max-width:25%;
+  }
+
   /*
   img {
     max-width: 100% !important;
