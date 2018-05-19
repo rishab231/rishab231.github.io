@@ -51,7 +51,9 @@
   }
 
   img.proj {
-    max-width:10%;
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   /*
@@ -179,8 +181,7 @@ body {
 }
 
 proj-container {
-  width: 10%;
-  height: auto;
+  width: 100px;
 }
 
 /*
