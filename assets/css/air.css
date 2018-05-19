@@ -178,6 +178,11 @@ body {
   text-align: center;
 }
 
+proj-container {
+  height: auto;
+  width: 100px;
+}
+
 /*
 img {
   border-radius: 50%;
@@ -186,6 +191,7 @@ img {
   width: 200px;
 }
 */
+
 
 a,
 a:visited {
