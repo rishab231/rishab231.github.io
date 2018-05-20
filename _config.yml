@@ -1,6 +1,6 @@
 # main text of home
-name: Akash Wadhwa
-bio: Personal website
+name: Rishab Srivastava
+bio: Computer Science | Economics at UC Berkeley
 
 # twitter summary info
 #description: A blog about technology and stuff related
@@ -43,8 +43,8 @@ instagram: rishabsrivastava
 # pinterest: mypinterest
 linkedin: rishab231
 #youtube: myyoutube
-# spotify: myspotify
-# github: mygithub
+spotify: myspotify
+github: rishab231
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -55,7 +55,7 @@ linkedin: rishab231
 email: rishab231@gmail.com
 
 authors:
-    akashwadhwa42:
+    rishab231:
         name: Rishab Srivastava
         bio: Computer Science | Economics at UC Berkeley
         external-image: false
