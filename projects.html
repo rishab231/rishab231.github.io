@@ -22,7 +22,7 @@ Intractable Problems:<i>The Modified Traveling Salesman Project</i>
 <img src="assets/images/map.png" alt="The Modified Traveling Salesman Problem">
 </p>
 This was a project for my Algorithms course: CS170. The project specification can be found <a href="cs170-spec.pdf">here</a>.
-<br><br>
+<br>
 <strong>Brief:</strong>
 <br>
 The project was a modified version of the famous intractable problem: The Traveling Salesman Problem (TSP). Given an input graph where each vertex represents a kingdom, and there exixt edge weights as well as conquering costs for each kingdom; our task was to design and develop an algorithm that <b>conquers all kingdoms (vertices)</b> while minimizing the <i>Total Cost</i> = ∑ Conquering costs + ∑ Traveling costs.
@@ -35,11 +35,10 @@ The project was a modified version of the famous intractable problem: The Travel
 </ul>
 <br>
 <strong>The algorithm:</strong>
-<br>
 <ul>We utilized a two-part approach to derive a solution given an input instance:
-	<li>Finding the set of special nodes to conquer</li>
-The project was a modified version of the famous intractable problem: The Traveling Salesman Problem (TSP). Given an input graph where each vertex represents a kingdom, and there exixt edge weights as well as conquering costs for each kingdom.
-	<li>Generating a cheap tour through these special nodes</li>
+	<li><b>Finding the set of <i>special</i> nodes to conquer</b></li>
+	We used a greedy strategy to find a set of special vertices.
+	<li><b>Generating a cheap tour through these special nodes</b></li>
 
 
 
