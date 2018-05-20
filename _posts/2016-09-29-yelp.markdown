@@ -1,0 +1,26 @@
+---
+title: "Yelp"
+layout: post
+date: 2016-09-29 22:10
+tag: python
+image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "This was a project for my Computer Science course: CS61A. The project specification can be found [here](http://inst.eecs.berkeley.edu/~cs61a/fa16/proj/maps/)."
+category: project
+author: rishab231
+externalLink: false
+---
+
+![BearMaps](../assets/images/yelp.png)
+
+This was a project for my Computer Science course: CS61A. The project specification can be found [here](http://inst.eecs.berkeley.edu/~cs61a/fa16/proj/maps/).
+
+- Created a Voronoi visualisation of restaurant ratings using machine learning and the Yelp academic dataset.
+- Implemented the k-means unsupervised learning algorithm to group restaurants into clusters based on their location.
+- Used a least-squares regression to recommend restaurants to users based on certain inputs such as ratings, location, cuisine, and price.
+
+<p><i>Note: </i>Code for this project cannot be shared due to course policy.</p>
+
+---

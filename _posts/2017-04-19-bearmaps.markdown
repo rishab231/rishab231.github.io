@@ -7,7 +7,7 @@ image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This was a project for my Data Structures course: CS170. The project specification can be found [here](http://datastructur.es/sp17/materials/proj/proj3/proj3.html)."
+description: "This was a project for my Data Structures course: CS61B. The project specification can be found [here](http://datastructur.es/sp17/materials/proj/proj3/proj3.html)."
 category: project
 author: rishab231
 externalLink: false
