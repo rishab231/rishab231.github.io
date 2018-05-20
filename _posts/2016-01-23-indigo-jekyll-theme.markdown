@@ -1,18 +1,19 @@
 ---
 title: "Intractable Problems:<i>The Modified Traveling Salesman Project</i>"
 layout: post
-date: 2018-05-20 22:10
-tag: 
+date: 2016-01-23 22:10
+tag: np-hard
+image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This was a project for my Algorithms course: CS170. The project specification can be found <a href="cs170-spec.pdf">here</a>."
+description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
 category: project
-author: rishab231
+author: johndoe
 externalLink: false
 ---
 
-![The Modified Traveling Salesman Problem](assets/images/map.png)
+![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
 
 Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
