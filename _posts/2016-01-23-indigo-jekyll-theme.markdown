@@ -1,19 +1,18 @@
 ---
-title: ":ramen: Indigo, minimalist jekyll theme"
+title: "Intractable Problems:<i>The Modified Traveling Salesman Project</i>"
 layout: post
-date: 2016-01-23 22:10
-tag: jekyll
-image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+date: 2018-05-20 22:10
+tag: 
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "This was a project for my Algorithms course: CS170. The project specification can be found <a href="cs170-spec.pdf">here</a>."
 category: project
-author: johndoe
+author: rishab231
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
+![The Modified Traveling Salesman Problem](assets/images/map.png)
 
 Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
 
