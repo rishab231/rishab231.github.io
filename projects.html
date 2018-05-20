@@ -22,10 +22,17 @@ Intractable Problems:<i>The Modified Traveling Salesman Project</i>
 <img src="assets/images/map.png" alt="The Modified Traveling Salesman Problem">
 </p>
 This was a project for my Algorithms course: CS170. The project specification can be found <a href="cs170-spec.pdf">here</a>.
-<br>
+<br><br>
 <strong>Brief:</strong>
-The project was a modified version of the famous intractable problem: The Traveling Salesman. Given an input graph where each vertex represents a kingdom, and there exixt edge weights as well as conquering costs for each kingdom; our task was to design and develop an algorithm that minimizes the <br><i>Total Cost</i> = ∑ Conquering costs + ∑ Traveling costs.
+The project was a modified version of the famous intractable problem: The Traveling Salesman Problem (TSP). Given an input graph where each vertex represents a kingdom, and there exixt edge weights as well as conquering costs for each kingdom; our task was to design and develop an algorithm that <b>conquers all kingdoms (vertices)</b> while minimizing the <br><i>Total Cost</i> = ∑ Conquering costs + ∑ Traveling costs.
 <br>
+The project was trickier than the TSP because of certain special rules that the project allowed:
+<ul>
+	<li>Once you conquer a kingdom, all its neighbours are automatically conquered.</li>
+	<li>Kingdoms can be visited without conquering them.</li>
+	<li>One must begin and end the tour at the starting kingdom given to us.</li>
+</ul>
+
 
 
 <p><strong>Algorithm-centric projects</strong></p>
