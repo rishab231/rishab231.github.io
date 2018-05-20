@@ -2,7 +2,7 @@
 title: "The Modified Traveling Salesman Project"
 layout: post
 date: 2018-05-01 22:10
-tag: np-hard
+tag: jekyll
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true
 projects: true
