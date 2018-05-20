@@ -4,7 +4,7 @@ layout: post
 date: 2018-05-01 22:10
 tag: np-hard
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
-headerImage: false
+headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This was a project for my Algorithms course: CS170. The project specification can be found <a href="../assets/cs170-spec.pdf">here</a>."
