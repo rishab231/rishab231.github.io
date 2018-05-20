@@ -8,15 +8,15 @@ bio: Personal website
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.png
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-external: false
+resume-url: assets/resume.pdf
 
-url: https://akashwadhwa42.github.io/
+url: https://rishab231.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -30,19 +30,19 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 
-disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+#  shortname: mydisqus # enter this from your disqus account
+#  categories: [blog, project] # only show disqus for posts that have these categories
 
 
 # if you don't have any of social below, comment the line
-facebook: akash.wadhwa.102
+facebook: rishab231
 # twitter: mytwitter
 # google: mygoogle
-instagram: akashwadhwa42
+instagram: rishabsrivastava
 # pinterest: mypinterest
-linkedin: akash-wadhwa-40936b137/
-youtube: myyoutube
+linkedin: rishab231
+#youtube: myyoutube
 # spotify: myspotify
 # github: mygithub
 # lastfm: mylastfm
@@ -52,14 +52,14 @@ youtube: myyoutube
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: akashwadhwa42@gmail.com
+email: rishab231@gmail.com
 
 authors:
     akashwadhwa42:
-        name: Akash Wadhwa
-        bio: Personal website
+        name: Rishab Srivastava
+        bio: Computer Science | Economics at UC Berkeley
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/profile.png
         #twitter: johndoe
 
 # do you want a larger site? change the option below
@@ -76,7 +76,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
