@@ -1,5 +1,5 @@
 ---
-title: ":ramen: Indigo, minimalist jekyll theme"
+title: "The Modified Traveling Salesman Project"
 layout: post
 date: 2016-01-23 22:10
 tag: jekyll
