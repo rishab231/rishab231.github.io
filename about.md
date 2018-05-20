@@ -12,7 +12,6 @@ layout: page
 	<li>Tax reductions or spending increases:<i> On fiscal policy in a recession </i>[<a href="../assets/econ-134-paper.pdf">link</a>]</li>
 	<li>Final Presentation for <i>Raktsha - Combating Anaemia</i> [<a href="https://www.slideshare.net/slideshow/embed_code/key/9QeJvCXWOzx2wn">link</a>]</li>
 	<li>Drugs, Spirituality and Therapy: A history of psychedelic plant powers [<a href="assets/dnb.pdf">link</a>]</li>
-	<li>Interning in Data Science [<a href="intelent.pdf">link</a>]</li>
-	<li>Spotlight Film Review [<a href="https://theworldinpictures2016.wordpress.com/2016/10/19/sins-of-the-father/">link</a>]</li>
+	<li>Interning in Data Science [<a href="../assets/intelent.pdf">link</a>]</li>
 	<li>Spotlight Film Review [<a href="https://theworldinpictures2016.wordpress.com/2016/10/19/sins-of-the-father/">link</a>]</li>
 </ul>
