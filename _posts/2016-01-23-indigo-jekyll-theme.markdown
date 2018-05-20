@@ -28,12 +28,17 @@ This project was trickier than the TSP because of certain special rules that the
 <b>The algorithm:</b>
 
 We utilized a two-part approach to derive a solution given an input instance:
-	- Finding the set of <i>special</i> nodes to conquer
+<ul>
+	<li><b>Finding the set of <i>special</i> nodes to conquer</b></li>
 	We used a greedy strategy with multiple heuristics to approximate the minimum weighted set cover (i.e. given a graph with vertex weights, finding the minimum weight that covers the entire graph). Our heuristics include combinations of <i>max_neighbours</i>, <i>average_edge_cost</i>, <i>min_conquering_cost</i>, et al.
-	- Generating a cheap tour through these special nodes</b>
+	<br><br>
+	<li><b>Generating a cheap tour through these special nodes</b></li>
 	Once we have determined our set of <i>special</i> nodes, we generate the cheapest possible tour through these subset of vertices. We used a number of approaches to approximate the best possible tour through these vertices:
-		- Creating a <i>Steiner Tree</i> of the special nodes and running all pairs shortest path to generate a tour from the starting vertex
-		- Reducing the problem to Metric-TSP by adding heavy-weighted dummy edges to make the graph complete; we then use <i>Christofides</i> algorithm
-		- We also tried to use a greedy approach by running Dijkstra's algorithm from every special node and greedily adding the closest special node to the tour
+	<ul>
+		<li>Creating a <i>Steiner Tree</i> of the special nodes and running all pairs shortest path to generate a tour from the starting vertex</li>
+		<li>Reducing the problem to Metric-TSP by adding heavy-weighted dummy edges to make the graph complete; we then use <i>Christofides</i> algorithm</li>
+		<li>We also tried to use a greedy approach by running Dijkstra's algorithm from every special node and greedily adding the closest special node to the tour</li>
+	</ul>
+</ul>
 	
 ---
