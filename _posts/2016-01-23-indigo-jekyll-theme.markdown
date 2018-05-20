@@ -13,7 +13,7 @@ author: rishab231
 externalLink: false
 ---
 
-![The Modified Traveling Salesman Problem](../assets/images/map.jpg)
+![The Modified Traveling Salesman Problem](../assets/images/map.png)
 
 The project was a modified version of the famous intractable problem: The Traveling Salesman Problem (TSP). Given an input graph where each vertex represents a kingdom, and there exist edge weights as well as vertex costs for each kingdom; our task was to design and develop an algorithm that <b>conquers all kingdoms (vertices)</b> while minimizing the <i>Total Cost</i> = ∑ Conquering costs + ∑ Traveling costs.
 
