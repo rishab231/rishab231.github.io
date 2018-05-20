@@ -43,5 +43,5 @@ We utilized a two-part approach to derive a solution given an input instance:
 	</ul>
 </ul>
 
-<p>Code for this project cannot be shared due to course policy. hehe</p>
+<p><i>Note:</i>Code for this project cannot be shared due to course policy.</p>
 ---
