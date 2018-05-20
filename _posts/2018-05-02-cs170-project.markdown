@@ -20,10 +20,9 @@ This was a project for my Algorithms course: CS170. The project specification ca
 This was a modified version of the famously intractable Traveling Salesman Problem (TSP). Given an input graph where each vertex represents a kingdom, and there exist edge weights as well as vertex costs for each kingdom; our task was to design and develop an algorithm that <b>conquers all kingdoms (vertices)</b> while minimizing the <i>Total Cost</i> = ∑ Conquering costs + ∑ Traveling costs.
 
 This project was trickier than the TSP because of certain special rules that the project allowed:
-<ul>
-<li>Once you conquer a kingdom, all its neighbours are automatically conquered.</li>
-<li>Kingdoms can be visited without conquering them.</li>
-<li>One must begin and end the tour at the starting kingdom given to us.</li>
+- Once you conquer a kingdom, all its neighbours are automatically conquered.
+- Kingdoms can be visited without conquering them.
+- One must begin and end the tour at the starting kingdom given to us.
 
 
 <b>The algorithm:</b>
