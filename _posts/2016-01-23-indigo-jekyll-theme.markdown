@@ -13,9 +13,9 @@ author: rishab231
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
+![The Modified Traveling Salesman Problem](../assets/map.jpg)
 
-Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
+The project was a modified version of the famous intractable problem: The Traveling Salesman Problem (TSP). Given an input graph where each vertex represents a kingdom, and there exist edge weights as well as vertex costs for each kingdom; our task was to design and develop an algorithm that <b>conquers all kingdoms (vertices)</b> while minimizing the <i>Total Cost</i> = ∑ Conquering costs + ∑ Traveling costs.
 
 ---
 
