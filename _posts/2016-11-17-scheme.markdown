@@ -17,7 +17,7 @@ externalLink: false
 
 This was a project for my Computer Science course: CS61A. The project specification can be found [here](http://inst.eecs.berkeley.edu/~cs61a/fa16/proj/scheme/).
 
-- Used Python to create an interpreter for programming language Scheme, a dialect of the language Lisp.
+- Used Python to create an interpreter for programming language Scheme, a dialect of the functional language Lisp.
 - Applied principles of tree recursion, lexical and syntactic analysis, and functional programming.
 
 <p><i>Note: </i>Code for this project cannot be shared due to course policy.</p>
