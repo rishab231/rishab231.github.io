@@ -17,9 +17,9 @@ externalLink: false
 
 This was a project for my Data Structures course: CS61B. The project specification can be found [here](http://datastructur.es/sp17/materials/proj/proj2/proj2.html).
 
-- Developed a GoogleMaps-esque web application on IntelliJ that allows users to interact with a map of Berkeley.
-- The application supported features such as route searching, zooming, scrolling, location searching, autocomplete, and map rastering.
-- Implemented search algorithms such as <i>A\*</i> and <i>Dijkstra's</i> algorithm to find shortest route between two given locations and utilized data structures such as quadtrees, hashtables, and tries.
+- Designed and developed the API for a relational database management system (RDBMS) as well as Domain Specific Language (DSL) similar to SQL.
+- The system supported user queries such as create/load/store/print table, joins, filtering and arithmetic/NaN/NoValue operations
+- Used IntelliJ, git version control, and JUnit testing
 
 <p><i>Note: </i>Code for this project cannot be shared due to course policy.</p>
 
