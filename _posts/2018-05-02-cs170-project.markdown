@@ -37,9 +37,9 @@ We utilized a two-part approach to derive a solution given an input instance:
 	<br>
 	<li>Generating a cheap tour through these special nodes</li>
 	<ul>
-		<li>Creating a <i>Steiner Tree</i> of the special nodes and running all pairs shortest path to generate a tour from the starting vertex</li>
-		<li>Reducing the problem to Metric-TSP by adding heavy-weighted dummy edges to make the graph complete; we then use <i>Christofides</i> algorithm</li>
-		<li>We also tried to use a greedy approach by running Dijkstra's algorithm from every special node and greedily adding the closest special node to the tour</li>
+		<li>Creating a <i>Steiner Tree</i> of the special nodes and running all pairs shortest path to generate a tour from the starting vertex.</li>
+		<li>Reducing the problem to Metric-TSP by adding heavy-weighted dummy edges to make the graph complete; we then use <i>Christofides</i> algorithm.</li>
+		<li>We also tried to use a greedy approach by running Dijkstra's algorithm from every special node and greedily adding the closest special node to the tour.</li>
 	</ul>
 </ul>
 

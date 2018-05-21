@@ -18,8 +18,8 @@ externalLink: false
 This was a project for my Data Structures course: CS61B. The project specification can be found [here](http://datastructur.es/sp17/materials/proj/proj2/proj2.html).
 
 - Designed and developed the API for a relational database management system (RDBMS) as well as Domain Specific Language (DSL) similar to SQL.
-- The system supported user queries such as create/load/store/print table, joins, filtering and arithmetic/NaN/NoValue operations
-- Used IntelliJ, git version control, and JUnit testing
+- The system supported user queries such as create/load/store/print table, joins, filtering and arithmetic/NaN/NoValue operations.
+- Used IntelliJ, git version control, and JUnit testing.
 
 <p><i>Note: </i>Code for this project cannot be shared due to course policy.</p>
 
