@@ -13,7 +13,7 @@ author: rishab231
 externalLink: false
 ---
 
-![BearMaps](../assets/images/rdms.jpg)
+![Database](../assets/images/rdms.jpg)
 
 This was a project for my Data Structures course: CS61B. The project specification can be found [here](http://datastructur.es/sp17/materials/proj/proj2/proj2.html).
 
