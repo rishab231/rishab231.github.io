@@ -19,7 +19,7 @@ An application designed and developed during my internship at Helios Capital Man
 
 - Engineered a data-driven pair-trading algorithm using graph theory to find statistical arbitrage opportunities.
 - On a simplified level, constructed a graph where each node represents a company's stock and an edge represents a historical correlation between two companies' stock price (using complements and substitute technique).
-- Designed multiple pair trading investment strategies based on price movements that are mapped in the graph.
+- Developed multiple pair trading investment strategies based on price movements in the macro stock market graph.
 
 
 ---
