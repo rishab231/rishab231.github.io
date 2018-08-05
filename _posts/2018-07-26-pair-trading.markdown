@@ -2,7 +2,7 @@
 title: "Pair Trading Algorithm"
 layout: post
 date: 2018-07-26 18:20
-tag: java
+tag: python
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: false
 projects: true
@@ -17,9 +17,9 @@ externalLink: false
 
 An application designed and developed during my internship at Helios Capital Management to supplement my research into equities in the Indian stock market.
 
-- Engineered a data-driven pair-trading algorithm using graph theory to find statistical arbitrage opportunities.
-- On a simplified level, constructed a graph where each node represents a company's stock and an edge represents a historical correlation between two companies' stock price (using complements and substitute technique).
-- Developed multiple pair trading investment strategies based on price movements in the macro stock market graph.
+- Developed a data-driven pair-trading algorithm using graph theory to find statistical arbitrage opportunities.
+- On a simplified level, constructed a *NetworkX* graph where each node represents a company's stock and an edge represents a historical correlation between two companies' stock price (using complements and substitute technique).
+- Developed multiple pair trading investment strategies based on price movements in the macro-stock market graph.
 
 
 ---
