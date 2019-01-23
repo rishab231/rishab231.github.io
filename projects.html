@@ -1,16 +1,70 @@
----
-layout: page
-title: Projects
----
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
-</section>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Projects</title>
+<link rel="stylesheet" href="assets/css/air.css">
+<script src = "assets/scroll.js"></script>
+</head>
+<body>
+<h3>My Projects</h3>
+<div class="hr">
+	<hr>
+</div>
+
+<font size="6">
+<h4><a href="index.html">Home</a></h4>
+</font>
+
+<p><strong>
+Intractable Problems:<i>The Modified Traveling Salesman Project</i>
+</strong>
+<img src="assets/images/map.png" alt="The Modified Traveling Salesman Problem" height="250" width="350">
+</p>
+This was a project for my Algorithms course: CS170. The project specification can be found <a href="cs170-spec.pdf">here</a>.
+<br><br>
+<strong>Brief:</strong>
+<br>
+The project was a modified version of the famously intractable Traveling Salesman Problem (TSP). Given an input graph where each vertex represents a kingdom, and there exist edge weights as well as vertex costs for each kingdom; our task was to design and develop an algorithm that <b>conquers all kingdoms (vertices)</b> while minimizing the <i>Total Cost</i> = ∑ Conquering costs + ∑ Traveling costs.
+
+<br>
+<ul>This project was trickier than the TSP because of certain special rules that the project allowed:
+	<li>Once you conquer a kingdom, all its neighbours are automatically conquered.</li>
+	<li>Kingdoms can be visited without conquering them.</li>
+	<li>One must begin and end the tour at the starting kingdom given to us.</li>
+</ul>
+<br>
+<strong>The algorithm:</strong>
+<ul>We utilized a two-part approach to derive a solution given an input instance:
+	<li><b>Finding the set of <i>special</i> nodes to conquer</b></li>
+	We used a greedy strategy with multiple heuristics to approximate the minimum weighted set cover (i.e. given a graph with vertex weights, finding the minimum weight that covers the entire graph). Our heuristics include combinations of <i>max_neighbours</i>, <i>average_edge_cost</i>, <i>min_conquering_cost</i>, et al.
+	<br><br>
+	<li><b>Generating a cheap tour through these special nodes</b></li>
+	Once we have determined our set of <i>special</i> nodes, we generate the cheapest possible tour through these subset of vertices. We used a number of approaches to approximate the best possible tour through these vertices:
+	<ul>
+		<li>Creating a <i>Steiner Tree</i> of the special nodes and running all pairs shortest path to generate a tour from the starting vertex</li>
+		<li>Reducing the problem to Metric-TSP by adding heavy-weighted dummy edges to make the graph complete; we then use <i>Christofides</i> algorithm</li>
+		<li>We also tried to use a greedy approach by running Dijkstra's algorithm from every special node and greedily adding the closest special node to the tour</li>
+	</ul>
+</ul>
+<br>
+<p><strong>Algorithm-centric projects</strong>
+<ul>
+	<li><strong>BearMaps</strong></li>
+	<img src="assets/images/bearmaps.png" alt="BearMaps height="250" width="350" align="middle">
+	<li><strong>Yelp Restaurant Recommendations</strong></li>
+	<img src="assets/images/yelp.png" alt="YelpMap" height="250" width="350" align="middle">
+	<li><strong>Ants vs SomeBees</strong></li>
+	<img src="assets/images/ants.png" alt="Ants vs SomeBees" height="250" width="350" align="middle">
+</ul>
+
+<p><strong>System-based projects</strong>
+<ul>
+	<li><strong>Database</strong></li>
+	<img src="assets/images/rdms.jpg" alt="Database" height="250" width="350" align="middle">
+	<li><strong>Scheme Interpreter</strong></li>
+	<img src="assets/images/scheme.png" alt="Scheme" height="250" width="350" align="middle">
+</ul>
+</p>
+</body>
+</html>
