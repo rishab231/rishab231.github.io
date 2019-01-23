@@ -14,7 +14,7 @@ picture: assets/images/profile.png
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/resume.pdf
+resume-url: https://www.linkedin.com/in/rishab231/
 
 url: https://rishab231.github.io
 # your url: http://USERNAME.github.io
